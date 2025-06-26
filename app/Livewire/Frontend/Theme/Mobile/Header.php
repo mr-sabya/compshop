@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Livewire\Frontend\Theme;
+namespace App\Livewire\Frontend\Theme\Mobile;
 
 use Livewire\Component;
 
@@ -8,6 +8,6 @@ class Header extends Component
 {
     public function render()
     {
-        return view('livewire.frontend.theme.header');
+        return view('livewire.frontend.theme.mobile.header');
     }
 }
