@@ -4,101 +4,17 @@
             <span class="title">&nbsp;</span>
             <button class="offcanvas-close">×</button>
         </div>
-        <div class="offcanvas-menu-search-form">
+        <!-- <div class="offcanvas-menu-search-form">
             <form action="#">
                 <input type="text" placeholder="Search...">
                 <button><i class="icon-magnifier"></i></button>
             </form>
-        </div>
+        </div> -->
+
         <div class="offcanvas-menu">
-            <ul>
-                <li><a href="#"><span class="menu-text">Home</span></a>
-                    <ul class="sub-menu">
-                        <li><a href="index.html"><span class="menu-text">Home 1</span></a></li>
-                        <li><a href="index-2.html"><span class="menu-text">Home 2</span></a></li>
-                        <li> <a href="index-3.html"><span class="menu-text">Home 3</span></a></li>
-                        <li><a href="index-4.html"><span class="menu-text">Home 4</span></a></li>
-                    </ul>
-                </li>
-                <li><a href="#"><span class="menu-text">Shop</span></a>
-                    <ul class="sub-menu">
-                        <li>
-                            <a href="#"><span class="menu-text">Shop Grid</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="shop-3-column.html">Shop Grid 3 Column</a></li>
-                                <li><a href="shop-4-column.html">Shop Grid 4 Column</a></li>
-                                <li><a href="shop-left-sidebar.html">Shop Grid Left Sidebar</a></li>
-                                <li><a href="shop-right-sidebar.html">Shop Grid Right Sidebar</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#"><span class="menu-text">Shop List</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="shop-list.html">Shop List</a></li>
-                                <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
-                                <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#"><span class="menu-text">Shop Single</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="single-product.html">Shop Single</a></li>
-                                <li><a href="single-product-variable.html">Shop Variable</a></li>
-                                <li><a href="single-product-affiliate.html">Shop Affiliate</a></li>
-                                <li><a href="single-product-group.html">Shop Group</a></li>
-                                <li><a href="single-product-tabstyle-2.html">Shop Tab 2</a></li>
-                                <li><a href="single-product-tabstyle-3.html">Shop Tab 3</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#"><span class="menu-text">Shop Single</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="single-product-slider.html">Shop Slider</a></li>
-                                <li><a href="single-product-gallery-left.html">Shop Gallery Left</a></li>
-                                <li><a href="single-product-gallery-right.html">Shop Gallery Right</a></li>
-                                <li><a href="single-product-sticky-left.html">Shop Sticky Left</a></li>
-                                <li><a href="single-product-sticky-right.html">Shop Sticky Right</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#"><span class="menu-text">Pages</span></a>
-                    <ul class="sub-menu">
-                        <li><a href="about.html">About Page</a></li>
-                        <li><a href="cart.html">Cart Page</a></li>
-                        <li><a href="checkout.html">Checkout Page</a></li>
-                        <li><a href="compare.html">Compare Page</a></li>
-                        <li><a href="login.html">Login & Register Page</a></li>
-                        <li><a href="my-account.html">Account Page</a></li>
-                        <li><a href="wishlist.html">Wishlist Page</a></li>
-                        <li><a href="thank-you-page.html">Thank You Page</a></li>
-                    </ul>
-                </li>
-                <li><a href="#"><span class="menu-text">Blog</span></a>
-                    <ul class="sub-menu">
-                        <li><a href="#"><span class="menu-text">Blog Grid</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
-                                <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#"><span class="menu-text">Blog List</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
-                                <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#"><span class="menu-text">Blog Single</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="blog-single-left-sidebar.html">Blog Single Left Sidebar</a></li>
-                                <li><a href="blog-single-right-sidebar.html">Blog Single Right Sidbar</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+            <livewire:frontend.theme.menu.index />
         </div>
+
         <div class="offcanvas-buttons mt-30px">
             <div class="header-tools d-flex">
                 <div class="cart-info d-flex align-self-center">
@@ -108,6 +24,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="offcanvas-social mt-30px">
             <ul>
                 <li>

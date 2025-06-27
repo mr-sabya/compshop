@@ -4,9 +4,7 @@
 
             <!-- Header Logo Start -->
             <div class="col">
-                <div class="header-logo">
-                    <a href="index.html"><img class="img-responsive" src="{{ url('assets/frontend/images/logo/logo.png') }}" alt="logo.jpg" /></a>
-                </div>
+                <livewire:frontend.theme.logo.index className="header-logo" />
             </div>
             <!-- Header Logo End -->
 
