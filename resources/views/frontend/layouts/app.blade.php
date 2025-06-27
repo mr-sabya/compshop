@@ -65,8 +65,8 @@
 
     <!-- JS
 ============================================ -->
-    <script src="{{ asset('assets/frontend/js/vendor/vendor.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/plugins/plugins.min.js') }}"></script>
+    <script data-navigate-once src="{{ asset('assets/frontend/js/vendor/vendor.min.js') }}"></script>
+    <script data-navigate-once src="{{ asset('assets/frontend/js/plugins/plugins.min.js') }}"></script>
 
     <!-- Main Activation JS -->
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>

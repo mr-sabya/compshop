@@ -14,3 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [App\Http\Controllers\Frontend\HomeController::class, 'index'])->name('home');
+
+Route::get('/shop', [App\Http\Controllers\Frontend\ShopController::class, 'index'])->name('shop.index');
+
+// blog routes
+Route::get('/blog', [App\Http\Controllers\Frontend\BlogController::class, 'index'])->name('blog.index');
